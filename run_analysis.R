@@ -1,3 +1,9 @@
+#install packages 
+install.packages("dplyr")
+install.packages("tidyr")
+#load packages
+library(dplyr)
+library(tidyr)
 
 #Code to download and unzip the data file
 if(!file.exists("UCI HAR Dataset")){
